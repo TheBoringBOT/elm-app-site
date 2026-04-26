@@ -3,69 +3,309 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shimmr App Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy policy for Elm, a smart calendar and planning app for notes, reminders, events, writing, and optional AI assistance."
+    />
+    <meta name="application-name" content="Elm" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f5f5f7" />
+    <meta property="og:title" content="Elm Privacy Policy" />
+    <meta
+      property="og:description"
+      content="How Elm handles notes, calendar context, reminders, analytics, payments, and optional AI features."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Elm Privacy Policy" />
+    <meta
+      name="twitter:description"
+      content="How Elm handles notes, calendar context, reminders, analytics, payments, and optional AI features."
+    />
+    <title>Elm Privacy Policy</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-        <!-- Language Selection Banner -->
-     <div style="position: absolute; top: 10px; right: 10px; background-color: #f1f1f1; padding: 8px 12px; border-radius: 5px;">
-      <a href="index.html" style="margin-right: 10px; text-decoration: none; color: #333;">English</a> |
-      <a href="es.html" style="margin-left: 10px; text-decoration: none; color: #333;">Español</a>
-    </div>
-    <header>
-      <img src="Vector.png" class="logo" alt="Shimmr logo" />
-      <h1>Shimmr</h1>
-    </header>
-    <main style="min-height: 80vh">
-      <h1>Privacy Policy</h1>
-      <br />
-      <div>
-        <h2>We don't store your personal data</h2>
-        <p>
-          Our app doesn't collect or store any of your personal data. All data is stored locally on your device, and we don't have access to it.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h2>Anonymous Data Collection</h2>
-        <p>
-          While we do not store personal information, we track anonymous events within the app to improve user experience and functionality. These events are collected without any personally identifiable information and help us understand how users interact with the app.
-        </p>
-        <br /> <!-- Added space here -->
-        <h3>Tracked Anonymous Events:</h3>
-        <ul style="list-style-type: disc; margin-left: 30px; padding-left: 0;"> <!-- Better list styling -->
-          <li><strong>Audio Start and Finish:</strong> We track when audio sessions are started and finished, including the preset ID and session duration.</li>
-          <li><strong>Favorite Preset:</strong> We track when a user favorites or unfavorites a preset.</li>
-          <li><strong>Mixer Modifications:</strong> We track changes to the audio mixer, such as volume adjustments, reverb settings, tone volume, noise volume, and equalizer type changes.</li>
-          <li><strong>Default Timer Usage:</strong> We track when the default timer is used.</li>
-          <li><strong>Preferred Timer Usage:</strong> We track when a user selects or uses a preferred timer duration.</li>
-          <li><strong>Refocus Sounds:</strong> We track when users select, start, or end refocus sounds, and the chosen refocus sound. We also track changes to refocus sound intervals.</li>
-          <li><strong>Screen Settings:</strong> We track when the "Keep Screen Awake" setting is toggled.</li>
-          <li><strong>Mix with Other Apps:</strong> We track when the "Mix with Other Apps" setting is toggled.</li>
-          <li><strong>Restart Timer:</strong> We track when the timer is reset or restarted.</li>
-        </ul>
-        <p>
-          These events are collected to help us optimize the app's functionality, improve features, and deliver a better experience. All tracked data is anonymous and cannot be linked to any specific user.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h2>Analytics Tools</h2>
-        <p>
-          We use Firebase Analytics to collect anonymous data. Firebase Analytics helps us understand how users engage with our app and allows us to improve features based on usage patterns. No personally identifiable information is collected through Firebase Analytics.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h2>Privacy Policy Changes</h2>
-        <p>
-          Although most changes are likely to be minor, we may change our Privacy Policy from time to time. We encourage visitors to frequently check this page for any changes to our Privacy Policy.
-        </p>
-      </div>
+    <main class="policy-page">
+      <article class="policy-document" aria-labelledby="policy-title">
+        <header class="policy-header">
+          <img
+            src="elm-ghost-light.png"
+            class="policy-logo"
+            alt="Elm Ghost logo"
+          />
+          <p class="product-name">Elm</p>
+          <h1 id="policy-title">Privacy Policy</h1>
+          <p class="updated">Last updated: April 26, 2026</p>
+          <p class="lead">
+            Elm is a smart calendar, planning, and notes app for organizing your
+            day with reminders, events, writing, and AI assistance in one
+            private workspace. Your plans, calendar context, notes, reminders,
+            and AI conversations can be personal, so Elm is designed to keep
+            data use limited, visible, and under your control.
+          </p>
+          <div class="promise-list" aria-label="Privacy commitments">
+            <p>We do not sell your personal data.</p>
+            <p>We do not run advertising in Elm.</p>
+            <p>
+              We do not use your notes, writing, chat messages, tasks,
+              reminders, or calendar events for advertising.
+            </p>
+          </div>
+        </header>
+
+        <section>
+          <h2>What You Create in Elm</h2>
+          <div class="section-content">
+            <p>Elm lets you create and manage:</p>
+            <ul>
+              <li>Notes and personal writing</li>
+              <li>Tasks, events, and reminders</li>
+              <li>Drawings and selected photo attachments</li>
+              <li>Chat messages and AI-generated responses</li>
+              <li>App preferences and planning settings</li>
+            </ul>
+            <p>
+              This content is stored on your device. If iCloud is enabled for
+              Elm, your app data may sync through Apple iCloud / CloudKit so it
+              is available across your Apple devices.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Apple Calendar and Apple Reminders</h2>
+          <div class="section-content">
+            <p>
+              If you grant permission, Elm can read selected Apple Calendar
+              events and Apple Reminders so they can be shown in your daily
+              planning view.
+            </p>
+            <p>
+              Elm can also create, update, or complete calendar, reminder, task,
+              or event items when you explicitly choose to do so in the app,
+              including through a confirmed AI action card.
+            </p>
+            <p>
+              You can revoke Calendar or Reminders access at any time in iOS
+              Settings.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>AI Features</h2>
+          <div class="section-content">
+            <p>
+              Elm includes optional AI features for chat, note analysis,
+              insights, and writing prompts.
+            </p>
+            <p>
+              Cloud AI features are available to Elm Pro users and require
+              explicit consent before any personal app content is sent to Google
+              Gemini through Firebase AI Logic / Vertex AI.
+            </p>
+            <p>
+              When you use cloud AI, Elm may send only the context needed for
+              the request, such as:
+            </p>
+            <ul>
+              <li>Your current message or prompt</li>
+              <li>Recent chat context</li>
+              <li>Relevant note or writing excerpts</li>
+              <li>Relevant task, reminder, event, or calendar context</li>
+              <li>
+                App preferences that affect tone, style, or planning behavior
+              </li>
+            </ul>
+            <p>
+              Elm does not send all of your notes or writing by default. Elm
+              does not send PencilKit drawing strokes, raw document attachments,
+              selected photo attachments, or precise GPS coordinates to Gemini
+              as part of normal AI chat and analysis.
+            </p>
+            <p>
+              AI responses are assistive. If AI suggests creating, updating,
+              deleting, or completing a planner item, Elm shows a confirmation
+              card first. Nothing is changed until you confirm it.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>AI Training</h2>
+          <div class="section-content">
+            <p>
+              Elm uses Google Gemini through Firebase AI Logic / Vertex AI.
+              Google Cloud states that customer data sent to Vertex AI managed
+              models is not used to train or fine-tune AI/ML models without the
+              customer's permission or instruction.
+            </p>
+            <p>
+              Elm does not intentionally use your notes, writing, chat messages,
+              tasks, reminders, or calendar content to train AI models.
+            </p>
+            <p>
+              Some cloud providers may process prompts and outputs for security,
+              abuse prevention, reliability, or caching according to their own
+              service terms. Elm limits the context sent to AI requests and uses
+              App Check / App Attest to help protect AI access from abuse.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Analytics and Tracking</h2>
+          <div class="section-content">
+            <p>
+              Elm uses Firebase Analytics to understand basic app usage and
+              improve reliability.
+            </p>
+            <p>
+              Analytics events are designed to measure product interaction, such
+              as feature usage, settings changes, permission flows, and whether
+              actions succeed or fail. These events should not include note
+              text, writing content, chat messages, task titles, reminder
+              titles, calendar event titles, or other personal writing.
+            </p>
+            <p>
+              Elm does not set a Firebase Analytics user ID. Elm does not use
+              analytics for third-party advertising, ad targeting, or sharing
+              with data brokers.
+            </p>
+            <p>
+              Under Apple's definition, "tracking" means linking app data with
+              third-party data for advertising or advertising measurement, or
+              sharing app data with a data broker. Elm does not use analytics
+              for that kind of tracking.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Permissions</h2>
+          <div class="section-content">
+            <p>Elm asks for permissions only when needed for app features:</p>
+            <ul>
+              <li>
+                Calendar access: to show and manage selected calendar events.
+              </li>
+              <li>
+                Reminders access: to show and manage selected Apple Reminders.
+              </li>
+              <li>
+                Notifications: to send alerts for tasks, reminders, events, and
+                app check-ins.
+              </li>
+              <li>
+                Microphone and Speech Recognition: to turn speech into text when
+                you use dictation.
+              </li>
+              <li>
+                Location When In Use: to optionally add location context to
+                notes.
+              </li>
+              <li>iCloud: to sync app data across your Apple devices.</li>
+            </ul>
+            <p>You can manage permissions in iOS Settings.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Payments</h2>
+          <div class="section-content">
+            <p>
+              Subscriptions and purchases are handled by Apple using StoreKit.
+              Elm receives purchase entitlement information so it can unlock
+              Pro features. Elm does not receive your payment card details.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Service Providers</h2>
+          <div class="section-content">
+            <p>Elm may use the following service providers to operate the app:</p>
+            <ul>
+              <li>
+                Apple: iCloud / CloudKit sync, Calendar, Reminders,
+                notifications, StoreKit purchases, and system permissions.
+              </li>
+              <li>
+                Firebase / Google: Analytics, Remote Config, App Check, Firebase
+                AI Logic, and Google Gemini / Vertex AI.
+              </li>
+            </ul>
+            <p>
+              These providers process data only as needed to provide their
+              services, protect the app, process purchases, provide analytics,
+              or run optional AI features.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Your Choices</h2>
+          <div class="section-content">
+            <p>You can:</p>
+            <ul>
+              <li>Delete app content inside Elm.</li>
+              <li>Revoke permissions in iOS Settings.</li>
+              <li>Disable iCloud sync through Apple's iCloud settings.</li>
+              <li>Review or change AI consent in Elm settings.</li>
+              <li>
+                Stop analytics collection by uninstalling the app, or by using
+                any analytics preference Elm provides.
+              </li>
+              <li>Contact us for privacy or deletion requests.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Retention and Deletion</h2>
+          <div class="section-content">
+            <p>
+              Your Elm content remains until you delete it or remove Elm/iCloud
+              data through Apple's device and iCloud settings.
+            </p>
+            <p>
+              Analytics and service logs may be retained by Firebase, Google, or
+              Apple according to their service terms and retention settings.
+            </p>
+            <p>
+              For privacy questions or deletion requests, contact:
+              <a href="mailto:gareth.dev@icloud.com">gareth.dev@icloud.com</a>.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Children</h2>
+          <div class="section-content">
+            <p>
+              Elm is not designed for children and does not knowingly collect
+              personal data from children.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Changes</h2>
+          <div class="section-content">
+            <p>
+              We may update this policy when Elm's features, service providers,
+              or data practices change. The latest version will be available at
+              this URL.
+            </p>
+          </div>
+        </section>
+      </article>
     </main>
-    <footer>
-      <h3>Support</h3>
-      <p>shimmr.app@gmail.com</p>
+
+    <footer class="site-footer">
+      <p>Support</p>
+      <a href="mailto:gareth.dev@icloud.com">gareth.dev@icloud.com</a>
     </footer>
   </body>
 </html>
