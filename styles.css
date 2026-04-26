@@ -170,6 +170,12 @@ li + li {
   font-weight: 600;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+}
+
 @media (max-width: 700px) {
   html {
     font-size: 16px;
